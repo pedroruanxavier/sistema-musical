@@ -305,3 +305,25 @@ No celular os cards descem sozinhos." */
 .menu-card-icon { font-size: 2.2rem; margin-bottom: .75rem; }[cite: 9]
 .menu-card-title { font-size: 1.05rem; font-weight: 600; color: var(--primary); margin-bottom: .35rem; }[cite: 9]
 .menu-card-desc { font-size: .85rem; color: var(--text-muted); }[cite: 9]
+/* [AULA 2] Cores dos botões de ação da tabela.
+ Azul = ação normal. Vermelho = perigo (excluir). */
+ .btn-edit { background: var(--blue); color: #fff; }
+ .btn-edit:hover { background: var(--blue-dark); }
+ .btn-delete { background: var(--red); color: #fff; }
+ .btn-delete:hover { background: var(--red-dark); }
+ /* [AULA 2] O vermelho do YouTube, para reconhecer na hora. */
+.btn-youtube { background: #ff0000; color: #fff; }
+ .btn-youtube:hover { background: #cc0000; }
+
+ /* -----------------------------------------------
+ 8. TIPOGRAFIA [h2 na AULA 2]
+ ----------------------------------------------- */
+ /* Todo h2 do sistema: grande, cor principal e uma linha embaixo. */
+ h2 {
+ font-size: 1.75rem;
+ font-weight: 600;
+ color: var(--primary);
+ margin-bottom: 1.5rem;
+ padding-bottom: .75rem;
+border-bottom: 2px solid var(--border);
+ }
