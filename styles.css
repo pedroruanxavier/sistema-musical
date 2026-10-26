@@ -301,3 +301,7 @@ No celular os cards descem sozinhos." */
   font-size: .85rem;
   color: var(--text-muted);
 }
+
+.menu-card-icon { font-size: 2.2rem; margin-bottom: .75rem; }[cite: 9]
+.menu-card-title { font-size: 1.05rem; font-weight: 600; color: var(--primary); margin-bottom: .35rem; }[cite: 9]
+.menu-card-desc { font-size: .85rem; color: var(--text-muted); }[cite: 9]
